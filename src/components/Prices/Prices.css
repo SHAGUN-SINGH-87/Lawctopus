@@ -1,0 +1,207 @@
+.pricing{
+    background:#f6f8fc;
+}
+
+.pricing-card{
+
+    max-width:700px;
+
+    margin:auto;
+
+    background:rgba(255,255,255,.82);
+
+    backdrop-filter:blur(20px);
+
+    border-radius:30px;
+
+    padding:55px;
+
+    border:1px solid rgba(255,255,255,.3);
+
+    box-shadow:0 25px 60px rgba(0,0,0,.08);
+
+    position:relative;
+
+}
+
+.badge{
+
+position:absolute;
+
+top:-18px;
+
+right:35px;
+
+background:#ff4d4d;
+
+color:white;
+
+padding:10px 22px;
+
+border-radius:40px;
+
+font-weight:600;
+
+}
+
+.pricing-card h3{
+
+font-size:30px;
+
+color:#10233d;
+
+margin-bottom:25px;
+
+}
+
+.price{
+
+font-size:72px;
+
+font-weight:700;
+
+color:#10233d;
+
+}
+
+.old-price{
+
+font-size:22px;
+
+margin:10px 0 35px;
+
+color:#888;
+
+}
+
+.pricing-card button{
+
+width:100%;
+
+padding:18px;
+
+border:none;
+
+border-radius:50px;
+
+background:linear-gradient(90deg,#10233d,#1f4d91);
+
+color:white;
+
+font-size:18px;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+gap:10px;
+
+cursor:pointer;
+
+transition:.4s;
+
+}
+
+.pricing-card button:hover{
+
+transform:translateY(-4px);
+
+}
+
+.divider{
+
+height:1px;
+
+background:#ddd;
+
+margin:40px 0;
+
+}
+
+.pricing-features{
+
+display:grid;
+
+grid-template-columns:repeat(2,1fr);
+
+gap:18px;
+
+}
+
+.pricing-features div{
+
+display:flex;
+
+gap:12px;
+
+align-items:center;
+
+}
+
+.pricing-features svg{
+
+color:#28a745;
+
+}
+
+.bottom-icons{
+
+display:grid;
+
+grid-template-columns:repeat(4,1fr);
+
+margin-top:45px;
+
+text-align:center;
+
+gap:20px;
+
+}
+
+.bottom-icons svg{
+
+font-size:28px;
+
+color:#d4af37;
+
+margin-bottom:10px;
+
+}
+
+.bottom-icons p{
+
+color:#555;
+
+font-size:15px;
+
+}
+
+@media(max-width:768px){
+
+.pricing-card{
+
+padding:35px;
+
+}
+
+.price{
+
+font-size:52px;
+
+}
+
+.pricing-features{
+
+grid-template-columns:1fr;
+
+}
+
+.bottom-icons{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
