@@ -7,7 +7,7 @@ import {
   FaLaptopCode,
   FaRocket,
 } from "react-icons/fa";
-import "./Roadmap.css";
+import "./RoadMap.css";
 
 import SectionTitle from "../Common/SectionTitle";
 
